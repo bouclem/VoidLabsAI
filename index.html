@@ -3,103 +3,297 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Voidware Labs</title>
-    <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background: #0b0b0d;
-            color: #e4e4e7;
-        }
-        header {
-            background: #1a1a1f;
-            padding: 20px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            border-bottom: 1px solid #2a2a31;
-        }
-        header h1 {
-            margin: 0;
-            color: #a970ff;
-        }
-        nav a {
-            color: #c8c8d0;
-            margin-left: 20px;
-            text-decoration: none;
-            font-weight: bold;
-        }
-        .hero {
-            padding: 80px 20px;
-            text-align: center;
-            background: linear-gradient(to bottom right, #1f1133, #0b0b0d);
-        }
-        .hero h2 {
-            font-size: 2.5rem;
-            margin-bottom: 10px;
-            color: #d7b3ff;
-        }
-        .hero p {
-            max-width: 700px;
-            margin: auto;
-            font-size: 1.2rem;
-            color: #cfcfe6;
-        }
-        section {
-            padding: 50px 20px;
-            max-width: 900px;
-            margin: auto;
-        }
-        h3 {
-            color: #b084ff;
-        }
-        footer {
-            text-align: center;
-            padding: 20px;
-            color: #8f8fa3;
-            border-top: 1px solid #2a2a31;
-            margin-top: 50px;
-        }
-    </style>
+    <title>Voidware - L'Écosystème Tech Souverain</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <h1>Voidware Labs</h1>
-        <nav>
-            <a href="#vision">Vision</a>
-            <a href="#voidgpt">VoidGPT</a>
-            <a href="#voidlab">VoidLab IDE</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">VOIDWARE</div>
+            <ul class="nav-links">
+                <li><a href="#vision">Vision</a></li>
+                <li><a href="#mission">Mission</a></li>
+                <li><a href="#innovation">Innovation</a></li>
+                <li><a href="#equipe">Équipe</a></li>
+                <li><a href="#roadmap">Roadmap</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
 
-    <div class="hero">
-        <h2>Écosystème Technologique Français</h2>
-        <p>Voidware construit une nouvelle génération d'IA, d'OS, et de technologies avancées pour renforcer la souveraineté numérique de la France et de l'Europe.</p>
-    </div>
-
-    <section id="vision">
-        <h3>Vision</h3>
-        <p>Voidware veut construire un écosystème complet : VoidLight OS, VoidGPT/VoidAGI, VoidLab IDE et bien plus encore. L'objectif est simple : créer la tech du futur, made in France.</p>
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="glitch" data-text="VOIDWARE">VOIDWARE</h1>
+            <p class="hero-subtitle">Le Futur de la Tech Européenne</p>
+            <p class="hero-description">Un écosystème complet, indépendant, souverain et extensible</p>
+            <a href="#mission" class="cta-button">Découvrir Notre Mission</a>
+        </div>
+        <div class="hero-background"></div>
     </section>
 
-    <section id="voidgpt">
-        <h3>VoidGPT / VoidAGI</h3>
-        <p>Une IA plus performante que toutes les IA existantes combinées, basée sur une architecture hybride : Mamba-2, MoE, World Model, Transformer amélioré, LSTM et concepts inspirés du cerveau humain.</p>
+    <section id="vision" class="section vision-section">
+        <div class="container">
+            <h2 class="section-title">Notre Vision</h2>
+            <div class="vision-content">
+                <p class="vision-text">
+                    Voidware veut construire un <strong>écosystème complet</strong> pour l'IA et la technologie moderne.
+                </p>
+                <div class="vision-grid">
+                    <div class="vision-card">
+                        <div class="card-icon">💻</div>
+                        <h3>VoidLight OS</h3>
+                        <p>Un système d'exploitation pour les développeurs et le gaming</p>
+                    </div>
+                    <div class="vision-card">
+                        <div class="card-icon">🧠</div>
+                        <h3>VoidGPT / VoidAGI</h3>
+                        <p>Une IA meilleure que toutes les IA existantes combinées</p>
+                    </div>
+                    <div class="vision-card">
+                        <div class="card-icon">⚡</div>
+                        <h3>VoidLab IDE</h3>
+                        <p>Un IDE révolutionnaire avec des techniques innovantes</p>
+                    </div>
+                </div>
+                <p class="vision-mission-statement">
+                    Voidware a pour pure mission de construire le prochain <strong>OpenAI et Microsoft combinés</strong>, 
+                    et permettre à la France et l'Europe de devenir des leaders mondiaux de la tech.
+                </p>
+            </div>
+        </div>
     </section>
 
-    <section id="voidlab">
-        <h3>VoidLab IDE</h3>
-        <p>Un IDE innovant pensé pour coder plus vite, intégrer des modèles souverains, proposer une alternative française à Cursor, et introduire le futur mode Co-AI.</p>
+    <section id="mission" class="section mission-section">
+        <div class="container">
+            <h2 class="section-title">Notre Mission</h2>
+            <p class="mission-intro">
+                Développer ensemble un écosystème complet pour la technologie <strong>"Made in France"</strong>
+            </p>
+            <div class="mission-products">
+                <div class="product-item">
+                    <span class="product-bullet">▸</span>
+                    <span>VoidLight OS</span>
+                </div>
+                <div class="product-item">
+                    <span class="product-bullet">▸</span>
+                    <span>VoidGPT / VoidAGI</span>
+                </div>
+                <div class="product-item">
+                    <span class="product-bullet">▸</span>
+                    <span>VoidLab IDE</span>
+                </div>
+                <div class="product-item">
+                    <span class="product-bullet">▸</span>
+                    <span>Frameworks & Architecture Hybride pour l'IA</span>
+                </div>
+            </div>
+            <div class="mission-statement">
+                <p>
+                    <strong>Voidware n'est pas juste une startup :</strong><br>
+                    C'est un écosystème complet, indépendant, souverain et extensible, 
+                    pour le futur de la tech européenne.
+                </p>
+            </div>
+        </div>
     </section>
 
-    <section id="contact">
-        <h3>Contact</h3>
-        <p>Pour les partenariats, collaborations et projets :<br> <strong>contact@voidware.fr</strong></p>
+    <section id="innovation" class="section innovation-section">
+        <div class="container">
+            <h2 class="section-title">Innovations Clés</h2>
+            <div class="innovation-grid">
+                <div class="innovation-card voidgpt">
+                    <h3>VoidGPT</h3>
+                    <p class="innovation-subtitle">Une IA meilleure que toutes les IA existantes combinées</p>
+                    <div class="tech-stack">
+                        <h4>Architecture Hybride :</h4>
+                        <ul>
+                            <li>Mamba-2</li>
+                            <li>MoE (Mixture of Experts)</li>
+                            <li>World Model</li>
+                            <li>Transformer Amélioré</li>
+                            <li>LSTM</li>
+                            <li>Inspiré du cerveau humain</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="innovation-card voidlab">
+                    <h3>VoidLab IDE</h3>
+                    <p class="innovation-subtitle">Un environnement de développement IA complet</p>
+                    <div class="features">
+                        <div class="feature-item">✓ Coder plus vite</div>
+                        <div class="feature-item">✓ Intégrer leur modèle et autres modèles européens</div>
+                        <div class="feature-item">✓ Alternative à Cursor</div>
+                        <div class="feature-item">✓ Mode Co-AI jamais fait</div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <footer>
-        Voidware Labs — 2025
+    <section id="equipe" class="section team-section">
+        <div class="container">
+            <h2 class="section-title">Équipe & Fondateur</h2>
+            <div class="founder-card">
+                <div class="founder-header">
+                    <h3>Klem / sqersters</h3>
+                    <p class="founder-subtitle">Fondateur & CEO</p>
+                </div>
+                <div class="founder-roles">
+                    <span class="role-badge">Chercheur IA</span>
+                    <span class="role-badge">Architecte Tech</span>
+                    <span class="role-badge">Scientifique</span>
+                    <span class="role-badge">Visionnaire</span>
+                </div>
+                <p class="founder-description">
+                    Le moteur principal de Voidware, créateur des concepts clés avec une créativité exceptionnelle, 
+                    une vision technologique rare et la capacité d'assembler des idées dans un seul système cohérent.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="soutien" class="section support-section">
+        <div class="container">
+            <h2 class="section-title">Pourquoi la France Doit Soutenir Voidware</h2>
+            <div class="support-grid">
+                <div class="support-card">
+                    <h4>La France Cherche À :</h4>
+                    <ul>
+                        <li>Renforcer sa souveraineté numérique</li>
+                        <li>Développer des grands modèles d'IA</li>
+                        <li>Soutenir les chercheurs visionnaires</li>
+                        <li>Financer des technologies stratégiques</li>
+                    </ul>
+                </div>
+                <div class="support-card highlight">
+                    <h4>Voidware Coche Toutes Ces Cases</h4>
+                    <ul>
+                        <li>✓ 100% Français</li>
+                        <li>✓ Vision Mondiale</li>
+                        <li>✓ Aligné avec Objectifs Nationaux</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="needs-section">
+                <h3>Ce Que Voidware Demande</h3>
+                <div class="needs-grid">
+                    <div class="need-card">
+                        <h4>💰 Financement</h4>
+                        <ul>
+                            <li>Serveurs</li>
+                            <li>GPU</li>
+                            <li>Infrastructure Cloud Souveraine</li>
+                        </ul>
+                    </div>
+                    <div class="need-card">
+                        <h4>👥 Ressources Humaines</h4>
+                        <ul>
+                            <li>Chercheurs (jeunes et experts)</li>
+                            <li>Collaboration avec entreprises françaises</li>
+                            <li>Accompagnement structurel</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="roadmap" class="section roadmap-section">
+        <div class="container">
+            <h2 class="section-title">Roadmap 2025-2027</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">Fin 2025</div>
+                    <div class="timeline-content">
+                        <ul>
+                            <li>Pitch publique</li>
+                            <li>Prototype de VoidGPT</li>
+                            <li>Première version de VoidLab IDE</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">Début 2026</div>
+                    <div class="timeline-content">
+                        <ul>
+                            <li>Premier modèle VoidGPT-1</li>
+                            <li>Premiers partenariats</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">Mi-2026</div>
+                    <div class="timeline-content">
+                        <ul>
+                            <li>Début Recherche AGI/IAG</li>
+                            <li>VoidGPT-2</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">Fin 2026</div>
+                    <div class="timeline-content">
+                        <ul>
+                            <li>Équipe d'IA chercheurs et développeurs</li>
+                            <li>Prototype d'AGI</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item highlight">
+                    <div class="timeline-date">Début 2027</div>
+                    <div class="timeline-content">
+                        <ul>
+                            <li>Dernier modèle VoidGPT</li>
+                            <li>Première version beta de VoidAGI</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="conclusion" class="section conclusion-section">
+        <div class="container">
+            <h2 class="section-title">Une Opportunité pour la France</h2>
+            <div class="conclusion-content">
+                <p class="conclusion-text">
+                    Voidware combine <strong>vision</strong>, <strong>innovation</strong>, 
+                    <strong>IA avancée</strong>, <strong>ambition AGI</strong> et 
+                    <strong>souveraineté numérique</strong>.
+                </p>
+                <div class="impact-box">
+                    <h3>En Soutenant Voidware, la France Peut Devenir :</h3>
+                    <ul>
+                        <li><span class="flag-placeholder">🇫🇷</span> La nation la plus avancée en Tech dans l'Europe</li>
+                        <li>🌍 L'une des plus innovantes dans le monde</li>
+                        <li>🏆 Top 3 mondial de la technologie</li>
+                    </ul>
+                </div>
+                <p class="final-statement">
+                    <strong>Voidware = Un futur champion mondial</strong><br>
+                    Et tout commence maintenant.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">VOIDWARE</div>
+                <p>Le Futur de la Tech Européenne</p>
+                <div class="contact-info">
+                    <p class="contact-email">
+                        <span class="email-label">Contact :</span>
+                        <a href="mailto:sqersterspromail@gmail.com">sqersterspromail@gmail.com</a>
+                    </p>
+                </div>
+                <p class="footer-copyright">© 2025 Voidware. Tous droits réservés.</p>
+            </div>
+        </div>
     </footer>
+
+    <script src="flag.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
